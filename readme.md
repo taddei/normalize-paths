@@ -5,7 +5,7 @@ You can use it to normalize a series of paths, helpful if creating a cross-platf
 ```javascript
 import normalizePaths from 'normalize-paths'
 
-const assetsFolder = `${__dirname}`/public/assets;
+const assetsFolder = `${__dirname}/public/assets`;
 
 const paths = {
     srcs: {
