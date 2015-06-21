@@ -1,6 +1,6 @@
 {
   "name": "normalize-paths",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "",
   "main": "server/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/taddei/normalize-paths"
+    "url": "http://github.com/taddei/normalize-paths"
   },
   "author": "Nicolo Taddei",
   "license": "MIT",
