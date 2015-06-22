@@ -7,7 +7,7 @@ var normalizePaths = require('../index');
 describe('test nested paths', function () {
 
   it('should normalize correctly a single path', function () {
-    expect(normalizePaths('..//hello//sds')).to.be.equal('../hello/sds');
+    expect(normalizePaths('..//hello//sds')).to.be.equal(path.normalize('../hello/sds'));
   });
 
   it('should normalize correctly array of paths', function () {
@@ -18,8 +18,8 @@ describe('test nested paths', function () {
     ];
 
     var normalizedPaths = [
-      '../hello/sds',
-      'test/morePath'
+      path.normalize('../hello/sds'),
+      path.normalize('test/morePath')
     ];
     expect(normalizePaths(paths)).to.be.deep.equal(normalizedPaths);
   });
