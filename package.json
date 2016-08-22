@@ -1,8 +1,8 @@
 {
   "name": "normalize-paths",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Use this module to format a path configuration object in order to run it on Unix and Windows systems",
-  "main": "server/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -12,7 +12,6 @@
   },
   "author": "Nicolo Taddei",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "chai": "^3.0.0",
     "mocha": "^2.2.5"
